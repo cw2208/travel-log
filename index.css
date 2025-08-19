@@ -1,0 +1,953 @@
+/* General Setting */
+html{
+  background: rgba(184, 103, 49, 0.10);
+}
+
+body {
+  color: #5B3522;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.home-header {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Navigation Bar */
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(148, 121, 107, 0.8);
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo{
+  max-width: 15%;
+}
+
+.nav-link{
+  font-family: "Hedvig Letters Serif";
+  font-size: 1rem;
+  border: none; 
+  color: white;
+  background-color: rgba(0,0,0,0);
+  text-decoration: none;
+}
+
+.nav-bar :hover{
+  text-decoration: underline;
+}
+
+/* Back button */
+
+.back-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.back-arrow{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 0.1em;
+}
+
+.back-button{
+  border: none; 
+  font-size: 1.5rem;
+  margin: 0;
+  color: #5B3522;
+  background-color: rgba(0,0,0,0);
+  text-decoration: none;
+}
+
+.back-button:hover{
+  text-decoration: underline;
+}
+
+/* Board Page */
+
+.board-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.25rem 3.125rem;
+  gap: 2rem;
+}
+
+.board-title h1, .board-title p{
+  margin: 0px;
+}
+
+.board-log{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5% 5%;
+  border-radius: 1.25em;
+  border: 1px solid #998780;
+  background: #FFF;
+  padding: 1.5em;
+  gap: 0;
+}
+
+/* Sort button */
+
+.sort-button-container {
+  display: flexbox;
+  direction: row;
+}
+
+.sort-button-container p{
+  font-size: 0.9rem;
+  margin: 0 0 -0.5em;
+  color: #998780;
+}
+
+.sort-button {
+  background: none;
+  border: none;
+  color: #998780;
+  padding: 0%;
+}
+
+.material-icons {
+  font-size: 3rem;
+}
+
+.sort-button .flip {
+  transform: scale(1, -1);
+}
+
+.sort-button .active {
+  color: #B86731;
+}
+
+/* Heading */
+
+.log-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin: 0em 0em 0.5em;
+}
+
+.log-heading .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.log-heading .top .top-right {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.log-heading .top .top-right .btn {
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  color: #5B3522;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.log-heading .top .top-right .delete:hover{
+  background-color: #AA4A44;
+  color: #f9f9f9;
+}
+
+.log-heading .top .top-right .move-to:hover{
+  background-color: #998780;
+  color: #f9f9f9;
+}
+
+.log-heading .date{
+  color: #998780;
+  margin: 0px;
+}
+
+.log-heading .time-rate{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.des-time{
+  margin: 0px;
+}
+
+.read-more{
+  text-align: end;
+  color: #B86731;
+  font-family: "Hedvig Letters Serif";
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.read-more:hover{
+  text-decoration: underline;
+}
+
+.board-log .pic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: auto;
+  margin-top: 0.625rem;
+}
+
+.board-log .pic img{
+  border-radius: 10px;
+  width: 30%;
+}
+
+.board-empty-message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.board-empty-message .nav-link {
+  background-color:rgba(148, 121, 107, 0.8);
+  padding: 0.7em;
+  width: 10em;
+  height: 1.5em;
+  border-radius: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Home Page */
+
+.home-banner{
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.home-banner-text{
+  text-align: center;
+  padding-top: 5em;
+}
+.home-banner-text h2{
+  padding-top: 0.2rem;
+  font-size: 1.2rem;
+  word-spacing: 0.1em;
+}
+
+.home-banner-button{
+  background-color:rgba(148, 121, 107, 0.8);
+  padding: 0.7em;
+  margin-top: 2em;
+  width: 10em;
+  height: 1.5em;
+  border-radius: 5em;
+}
+
+.recent-logs{
+  text-align: center;
+  margin-top:2em;
+
+}
+
+/* myLog page css */
+
+.mylog-profile{
+  padding: 2.8rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+.circle-profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+}
+
+.log-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.log-link:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 4px;
+}
+
+.log-item {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.log-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.log-item h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.log-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.create-mbook-title {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+/*css styling generated by chatgpt */
+.mbook-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between form elements */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mbook-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.mbook-input label {
+  font-weight: bold;
+}
+
+.mbook-input input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.mbook-input input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.mbook-input input[type="file"] {
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+button.btn-primary {
+  align-self: center;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: rgba(148, 121, 107, 0.8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.btn-primary:hover {
+  background-color: rgba(91, 74, 66, 0.8);
+  transform: scale(1.05);
+}
+
+.actions {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin: 20px 0; /* Space above and below the button */
+}
+
+.create-memory-book-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(148, 121, 107, 0.8); /* Primary blue */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.create-memory-book-btn:hover {
+  background-color: rgba(91, 74, 66, 0.8); /* Darker blue */
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+}
+
+.create-memory-book-btn:active {
+  transform: translateY(1px); /* Slight press effect */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+}
+
+.create-memory-book-btn:focus {
+  outline: 3px solid #80bdff; /* Accessible focus outline */
+  outline-offset: 2px;
+}
+
+
+
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.header-with-img{
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 276px;
+}
+
+/* journal */
+
+.create-heading {
+  margin-top: 0.5em;
+}
+.inputArea, .dateInput, .input-container, .mbook-choice * {
+  box-sizing: border-box;
+}
+
+.input-container{
+  display: flex;
+  margin-top: 1.375rem;
+  flex-wrap: wrap;
+}
+
+.input-item{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  padding: 10px;
+}
+
+.input-item p{
+  margin: 0;
+}
+
+input, .date-input{
+  width: 100%;
+  height: 100%;
+  border: white;
+  border-radius: 10px;
+  padding: 1.375em 1.25em;
+}
+
+.title-des{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  justify-content: flex-start;
+}
+
+.date-mbook{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  justify-content: flex-start;
+}
+
+.calendar-container {
+  position: absolute;
+  background-color: white; 
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px; 
+}
+
+input::placeholder{
+  color: #998780;
+  font-size: 17px;
+  font-family: "Hedvig Letters Sans";
+}
+
+.date-area {
+  position: relative; 
+}
+
+.date-input{
+  display: flex;
+}
+
+.text-box{
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 22px;
+}
+
+textarea{
+  max-width: 100%;
+  height: 100px;
+  border: white;
+  border-radius:10px;
+}
+
+textarea:nth-child(1){
+  padding: 18px 19px;
+  resize: none;
+}
+
+textarea:nth-child(1)::placeholder{
+  font-size: 17px;
+  color: #998780;
+  font-family: "Hedvig Letters Sans";
+}
+
+.video-input{
+  border: white;
+  background-color: white;
+  height: auto;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-input input{
+  all:unset;
+  width: 185px;
+}
+
+.video-input svg{
+  all: unset;
+  height: auto;
+  width: auto;
+}
+
+.publish-button{ 
+  margin-bottom: 70px;
+  margin-top: 20px;
+  color: white;
+  background-color: #B86731B2;
+  padding:14px 39px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer{
+  padding-top: 10px; 
+  text-align: center; 
+  margin-top: 20px;
+  
+}
+
+.footer-line{
+  width: calc(100% - 20px);
+  border-top: 1px solid #5B3522; 
+  margin: 0 auto 10px auto; 
+}
+
+/* CompleteSubmit */
+.complete-sub-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.button-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.button-container{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 250px;
+}
+
+.create-but,
+.view-but{
+  padding:14px 39px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+} 
+.create-but{
+  background-color: white;
+}
+
+.view-but{
+  background-color: #B86731B2;
+  color: white;
+}
+
+/* Move To */
+.move-to {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.move-to h1 {
+  margin-top: 0.5em;
+}
+
+.mbook-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  margin-bottom: 20px;
+}
+
+.mbook-item {
+  background-color: #f9f9f9; 
+  color: #5B3522;
+  border: none; 
+  border-radius: 10px; 
+  padding: 1em;
+  font-size: 1em;
+  text-align: center; 
+}
+
+.mbook-item:hover {
+  background-color: #5B3522;
+  color: white;
+}
+
+.moveto-button {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.moveto-btn {
+  padding: 12px 20px; 
+  font-size: 1em; 
+  border: none; 
+  border-radius: 50px; 
+}
+
+.moveto-btn:hover {
+  background-color: #998780;
+}
+
+.btn-cancel {
+  background-color: white;
+  color: #5B3522; 
+}
+
+.btn-move {
+  background-color: #5B3522; 
+  color: white;
+}
+
+.delete-btn {
+  background-color: transparent ; 
+  color: #864b24b2 ;
+  border: none;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+.delete-btn:hover {
+  color: red;
+}
+
+
+.mbook-item {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.mbook-item.selected {
+  background-color: #5B3522;
+  color: white;
+  border-color: darkbrown;
+}
+
+/* All logs */
+.view-toggle {
+  display: flex; /* This arranges the buttons side by side */
+  justify-content: center; /* Centers the buttons horizontally */
+
+  padding-bottom: 20px; /* Adds padding to the bottom */
+}
+
+.view-toggle button {
+  background: none;
+  border: none; 
+  color: #000; 
+  font-size: 16px; 
+  cursor: pointer; 
+  padding:0.1em;
+
+}
+
+.view-toggle button.active {
+  color: #5B3522; 
+  padding: 0rem;
+  
+}
+
+/* SignIn page */
+.sign-in {
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+/* pop up window */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background: #5B3522;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #5B3522;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  main {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  img {
+    max-width: 25rem;
+    max-height: 25rem;
+  }
+
+  .input-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 23px;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+
+  input,
+  .date-area{
+      height: 25px;
+      width: 100%;
+  }
+
+  .input-item{
+    flex: 1 1 45%;
+  }
+
+  .mbook-list {
+    flex-direction: row;
+    flex-wrap: wrap; 
+  }
+
+  .mbook-item {
+    flex: 1 1 200px;
+    width: 50%;
+  }
+
+  .search-input {
+    font-size: 1.1rem;
+  }
+
+  .logs {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Fewer columns on smaller screens */
+  }
+
+  .circle-profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Default for medium screens */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .log-heading .top .top-right {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .logs {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* More columns for larger screens */
+  }
+
+  .log-heading .top .top-right {
+    flex-direction: row;
+    align-items: center;
+  }
+}

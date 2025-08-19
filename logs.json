@@ -1,0 +1,150 @@
+{
+        "seattle-trip": 
+        [
+          {
+            "title": "My Trip to Seattle",
+            "destination": "Seattle",  
+            "start": "2024-08-17", 
+            "end": "2024-08-19", 
+            "content": "My trip to Seattle was the perfect balance of urban exploration and natural beauty. I arrived early in the morning, greeted by the cool, crisp air and the familiar sight of overcast skies. The mist seemed to hang over the city, creating an atmosphere of mystery and calm.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "Exploring Seattle's Parks",
+            "destination": "Seattle",  
+            "start": "2024-05-10", 
+            "end": "2024-05-15", 
+            "content": "Seattle's parks are a beautiful escape from the city's hustle and bustle. I spent several days hiking through Discovery Park and enjoying the peaceful surroundings. The towering trees and scenic views made for a perfect nature retreat.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "Seattle's Waterfront",
+            "destination": "Seattle",  
+            "start": "2024-07-20", 
+            "end": "2024-07-23", 
+            "content": "I spent a few relaxing days exploring the waterfront in Seattle. Pike Place Market was bustling with activity, and I loved walking along the piers, enjoying the views of Elliott Bay. I also took a boat ride around the bay to experience the city from the water.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          }
+        ],
+      
+        "california-trip": 
+        [
+          {
+            "title": "My Trip to California",
+            "destination": "San Francisco",  
+            "start": "2023-12-14", 
+            "end": "2023-12-25", 
+            "content": "My trip to California was filled with amazing food, scenic views, and incredible experiences. I spent a few days in San Francisco, exploring the iconic Golden Gate Bridge, Fisherman's Wharf, and Chinatown. The highlight was a sunset cruise under the Golden Gate Bridge.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "Exploring California's Coastline",
+            "destination": "Monterey & Big Sur",  
+            "start": "2024-01-05", 
+            "end": "2024-01-12", 
+            "content": "Driving along California’s Pacific Coast Highway was a once-in-a-lifetime experience. The winding roads along cliffs with panoramic views of the ocean were breathtaking. I visited the coastal town of Monterey and spent time hiking in Big Sur, one of the most picturesque places I've ever seen.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          }
+        ],
+      
+        "vancouver-trip": 
+        [
+          {
+            "title": "Exploring Vancouver's Urban Beauty",
+            "destination": "Vancouver",  
+            "start": "2024-06-05", 
+            "end": "2024-06-10", 
+            "content": "Vancouver offers the best of both worlds: urban life and nature. I wandered through the city's vibrant neighborhoods, and then spent time in Stanley Park enjoying the breathtaking views of mountains and the ocean. The blend of city and nature in Vancouver is absolutely unique.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "A Day in Vancouver's Whistler",
+            "destination": "Whistler, Vancouver",  
+            "start": "2024-07-01", 
+            "end": "2024-07-04", 
+            "content": "Whistler, just a short drive from Vancouver, is a ski resort in the winter and an adventure paradise in the summer. I spent the day hiking up the trails and enjoying stunning alpine views. It’s the perfect place to connect with nature and unwind.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          }
+        ],
+      
+        "europe-trip": 
+        [
+          {
+            "title": "Summer in Paris",
+            "destination": "Paris, France",  
+            "start": "2024-06-15", 
+            "end": "2024-06-22", 
+            "content": "Paris was everything I dreamed of: the food, the art, and the charm of the city were all unforgettable. I spent my days walking through the beautiful streets, visiting museums, and dining at cafes with views of the Eiffel Tower. It felt like I was living in a postcard.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "Exploring Rome's Ancient Ruins",
+            "destination": "Rome, Italy",  
+            "start": "2024-05-25", 
+            "end": "2024-05-30", 
+            "content": "Visiting Rome was like stepping back in time. The ancient ruins, like the Colosseum and Roman Forum, were awe-inspiring. I also explored the charming streets of Trastevere, tasting authentic Italian food and soaking in the city's rich history.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "Discovering Barcelona's Architecture",
+            "destination": "Barcelona, Spain",  
+            "start": "2024-04-10", 
+            "end": "2024-04-17", 
+            "content": "Barcelona's architecture is unlike anything I've seen before. From the whimsical works of Gaudí at Park Güell to the stunning Sagrada Familia, the city's buildings were as much a part of the experience as its food and culture. I couldn't stop taking photos of the beautiful facades!", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          },
+          {
+            "title": "A Visit to Amsterdam",
+            "destination": "Amsterdam, Netherlands",  
+            "start": "2024-06-01", 
+            "end": "2024-06-04", 
+            "content": "Amsterdam’s canals and vibrant streets make it one of the most picturesque cities in Europe. I rented a bike to explore the city, visited the Anne Frank House, and spent time in the famous Van Gogh Museum. The city’s laid-back vibe and rich culture made this a memorable stop on my European adventure.", 
+            "images": [
+              "../../public/img/img1.jpg", 
+              "../../public/img/img2.jpg", 
+              "../../public/img/img3.jpg"
+            ]
+          }
+        ]
+      }
+      

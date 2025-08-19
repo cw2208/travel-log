@@ -1,0 +1,22 @@
+[
+  {
+    "id": "seattle-trip", 
+    "name": "Seattle Trip",
+    "img": "../../public/img/img4.jpg"
+  },
+  {
+    "id": "california-trip", 
+    "name": "California Trip",
+    "img": "img/img4.jpg"
+  },
+  {
+    "id": "vancouver-trip", 
+    "name": "Vancouver Trip",
+    "img": "img/img4.jpg"
+  },
+  {
+    "id": "europe-trip", 
+    "name": "Europe Trip",
+    "img": "img/img4.jpg"
+  }
+]
